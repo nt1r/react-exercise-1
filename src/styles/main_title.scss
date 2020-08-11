@@ -1,0 +1,15 @@
+@import "variables";
+
+.main_title {
+
+}
+
+.main_title > h1 {
+  display: table;
+  margin: -75px + $base-margin auto $base-margin;
+}
+
+.main_title > h2 {
+  display: table;
+  margin: $base-margin auto;
+}

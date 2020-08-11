@@ -1,0 +1,33 @@
+@import "variables";
+
+.education_experience {
+  margin: $base-margin;
+}
+
+.education_experience > div {
+  display: flex;
+  align-items: start;
+  /*justify-content: space-between;*/
+
+  margin-top: $base-margin;
+  margin-bottom: $base-margin;
+}
+
+.year_label {
+  margin-top: 0;
+  margin-right: 80px;
+  font-size: 1.5em;
+}
+
+.education_content {
+  background: $background;
+  flex-grow: 1;
+}
+
+.education_content > h2 {
+  padding: $base-padding;
+}
+
+.education_content > p {
+  padding: 0 $base-padding $base-padding;
+}

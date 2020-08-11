@@ -1,0 +1,15 @@
+@import "variables";
+
+.avatar {
+
+}
+
+.avatar > img {
+  border-radius: 50%;
+
+  display: table;
+  margin: 0 auto;
+
+  position: relative;
+  top: -75px;
+}
